@@ -24,7 +24,7 @@ The way we prefer it, is by building a *Transaction* component that accepts diff
 For example, a transaction of type "Payment" will require an *Amount* field, while a transaction of type "NFTokenMint" will not.
 
 On the other hand, you will have to implement the [assets tab](https://livenet.xrpl.org/accounts/r3RaNVLvWjqqtFAawC6jbRhgKyFH7HvRS8/assets/issued) as it is.
-You can see an example of *Issued Tokens* [here](https://livenet.xrpl.org/accounts/r3RaNVLvWjqqtFAawC6jbRhgKyFH7HvRS8/assets/issued) and an example of *Non-Fungible Tokens* [here](https://livenet.xrpl.org/accounts/rKv6sjM28hjEnvbNpsdVmAVFrM8ZrSMz6S/assets/nft).
+You can see an example of *Issued Tokens* [here](https://livenet.xrpl.org/accounts/r3RaNVLvWjqqtFAawC6jbRhgKyFH7HvRS8/assets/issued) and an example of *Non-Fungible Tokens* [here](https://livenet.xrpl.org/accounts/rKv6sjM28hjEnvbNpsdVmAVFrM8ZrSMz6S/assets/nft) and [here](https://xrpl.org/concepts.html).
 
 To make it more interesting, we will also ask you to add a search bar, so we can navigate to a different account page.
 You can use a component similar to the one found on the XRPL explorer.
