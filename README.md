@@ -36,6 +36,7 @@ If there is no cached value you can load the account page of the following addre
 
 ## Requirements
 
+* Typescript is mandatory
 * Use the xrpl library to fetch all the necessary data from the XRPL blockchain. You can find its documentation [here](https://js.xrpl.org/index.html)
 * You are allowed to use any library, apart from React
 * You have to implement the Tabs component by yourself
