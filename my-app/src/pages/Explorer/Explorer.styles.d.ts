@@ -104,11 +104,11 @@ const HeaderExplorerDiv = styled.div`
 `;
 
 const HeaderIdDiv = styled.div`
-	margin-top: 106px;
+	margin-top: 155px;
 	margin-bottom: 80px;
 	margin-left: 12px;
 	& > h1 {
-		font-size: 45px;
+		font-size: 40px;
 	}
 `;
 
