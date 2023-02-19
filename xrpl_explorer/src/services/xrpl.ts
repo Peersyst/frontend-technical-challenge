@@ -1,4 +1,4 @@
-import { Client, AccountInfoResponse } from "xrpl"
+import { Client, AccountInfoResponse, AccountTxResponse } from "xrpl"
 import { RIPPLE_TEST_URL } from "../constans/constans"
 
 /**
@@ -19,7 +19,6 @@ const xrplGenericRequest = async (command: string, params: object): Promise<any>
     return response;
 }
 
-
 /**
  * Function to get account info
  * 
@@ -32,3 +31,21 @@ export const getAccountInfo = async (address: string): Promise<AccountInfoRespon
         ledger_index: 'validated',
     });
 } 
+
+/**
+ * Function to get account transactions limiting the number of results
+ * 
+ * @param address 
+ * @param limit 
+ * @returns account transactions
+ */
+export const getAccountTransactions = async (address: string, limit = 10): Promise<AccountTxResponse> => {
+    return xrplGenericRequest('account_tx', {
+        account: address,
+        ledger_index_min: -1,
+        ledger_index_max: -1,
+        binary: false,
+        limit,
+        forward: false,
+    })
+}
