@@ -1,6 +1,6 @@
 export const RIPPLE_TEST_URL: string = 'wss://s2-clio.ripple.com:51233';
 
-export const DEFAULT_ADDRESS: string = 'r3RaNVLvWjqqtFAawC6jbRhgKyFH7HvRS8'
+export const DEFAULT_ADDRESS: string = 'rSCXRaUyg9CkzHMidE7oYETB4W2bM2se7'
 
 export const TRANSACTIONS_LIST_HEADER: string[] = ['ACCOUNT','TRANSACTION TYPE','STATUS','DATE/TIME (UTC)'];
 export const ISSUED_TOKENS_LIST_HEADER: string[] = ['CURRENCY CODE', 'ISSUER', 'AMOUNT'];

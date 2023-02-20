@@ -19,7 +19,6 @@ const IssuedTokens: FunctionComponent<IssuedTokensProps> = ({address}) => {
     const getIssuedTokens = async () => {
         try{
             const response: GatewayBalancesResponse = await getAccountIssuedTokens(address, 10);
-            console.log(response)
             setIssuedTokens(response);
             setError(false)
         }catch(e){
