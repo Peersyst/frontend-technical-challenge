@@ -24,7 +24,7 @@ The way we prefer it, is by building a *Transaction* component that accepts diff
 For example, a transaction of type "Payment" will require an *Amount* field, while a transaction of type "NFTokenMint" will not.
 
 On the other hand, you will have to implement the [assets tab](https://livenet.xrpl.org/accounts/r3RaNVLvWjqqtFAawC6jbRhgKyFH7HvRS8/assets/issued) as it is.
-You can see an example of *Issued Tokens* [here](https://livenet.xrpl.org/accounts/r3RaNVLvWjqqtFAawC6jbRhgKyFH7HvRS8/assets/issued) and an example of *Non-Fungible Tokens* [here](https://livenet.xrpl.org/accounts/rKv6sjM28hjEnvbNpsdVmAVFrM8ZrSMz6S/assets/nft) and [here](https://xrpl.org/concepts.html).
+You can see an example of *Issued Tokens* [here](https://livenet.xrpl.org/accounts/r3RaNVLvWjqqtFAawC6jbRhgKyFH7HvRS8/assets/issued) and an example of *Non-Fungible Tokens* [here](https://livenet.xrpl.org/accounts/rKv6sjM28hjEnvbNpsdVmAVFrM8ZrSMz6S/assets/nft).
 
 To make it more interesting, we will also ask you to add a search bar, so we can navigate to a different account page.
 You can use a component similar to the one found on the XRPL explorer.
@@ -37,7 +37,7 @@ If there is no cached value you can load the account page of the following addre
 ## Requirements
 
 * Typescript is mandatory
-* Use the xrpl library to fetch all the necessary data from the XRPL blockchain. You can find its documentation [here](https://js.xrpl.org/index.html)
+* Use the xrpl library to fetch all the necessary data from the XRPL blockchain. You can find its documentation [here](https://js.xrpl.org/index.html) and [here](https://xrpl.org/concepts.html)
 * You are allowed to use any library, apart from React
 * You have to implement the Tabs component by yourself
 * The UI has to have a certain level of responsiveness
