@@ -9,7 +9,7 @@ import { TRANSACTIONS_LIST_HEADER } from "../../../constans/constans";
 import { getAccountTransactions } from "../../../services/xrpl";
 import TransactionData from "./Transaction";
 
-type TransactionOrResponseOnlyTx = Transaction & ResponseOnlyTxInfo & Payment;
+export type TransactionOrResponseOnlyTx = Transaction & ResponseOnlyTxInfo & Payment;
 
 interface TransactionListProps {
     address: string;

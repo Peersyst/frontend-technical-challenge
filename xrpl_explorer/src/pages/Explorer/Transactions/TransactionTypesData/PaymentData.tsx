@@ -1,8 +1,5 @@
 import { FunctionComponent } from "react"
-import { Payment, Transaction } from "xrpl";
-import { ResponseOnlyTxInfo } from "xrpl/dist/npm/models/common";
-
-type TransactionOrResponseOnlyTx = Transaction & ResponseOnlyTxInfo & Payment;
+import { TransactionOrResponseOnlyTx } from "../TransactionList";
 
 interface PaymentDataProps {
     transaction: TransactionOrResponseOnlyTx;
