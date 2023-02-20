@@ -2,6 +2,7 @@ import { Fragment, FunctionComponent } from "react";
 import Row from "../../components/CommonElements/Row/Row";
 import { BottomRowTitle, InfoList, InfoListItem, AccountLabel } from "./Explorer.styles";
 import { AccountRoot } from "xrpl/dist/npm/models/ledger";
+import { XRP_CHANGE } from "../../constans/constans";
 
 /**
  * Component to display account info for Explorer page
@@ -27,7 +28,7 @@ const AccountInfo: FunctionComponent<AccountInfoProps> = ({account}) => {
         <Row>
             <BottomRowTitle>
                 <p> XRP BALANCE </p>
-                {account.Balance}
+                {parseInt(account.Balance) * XRP_CHANGE}
             </BottomRowTitle>
             <InfoList>
                 <InfoListItem size='14px'> ACCOUNT INFO </InfoListItem>

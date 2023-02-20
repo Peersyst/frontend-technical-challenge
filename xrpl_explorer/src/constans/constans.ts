@@ -3,7 +3,7 @@
  */
 export const RIPPLE_TEST_URL: string = 'wss://s2-clio.ripple.com:51233';
 export const DEFAULT_ADDRESS: string = 'rSCXRaUyg9CkzHMidE7oYETB4W2bM2se7'
-
+export const XRP_CHANGE: number = 0.000001;
 
 /**
  * List Headers 
