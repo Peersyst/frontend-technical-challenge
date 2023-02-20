@@ -1,5 +1,6 @@
 import { FunctionComponent } from "react";
 import { Outlet } from "react-router";
+import Header from "./Header";
 
 //TODO: Add Header here
 
@@ -12,7 +13,8 @@ import { Outlet } from "react-router";
 
 const AppLayout: FunctionComponent = () => {
     return (
-        <div className='AppLayout'>
+        <div>
+            <Header/>
             <Outlet/>
         </div>
     )

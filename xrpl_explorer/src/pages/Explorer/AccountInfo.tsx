@@ -14,6 +14,10 @@ interface AccountInfoProps {
     account: AccountRoot;
   }
 
+/**
+ * Component to display account info for Explorer page
+ */
+
 const AccountInfo: FunctionComponent<AccountInfoProps> = ({account}) => {
     return (
         <Fragment>

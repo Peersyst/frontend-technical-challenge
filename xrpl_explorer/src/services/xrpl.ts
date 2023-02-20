@@ -1,4 +1,4 @@
-import { Client, AccountInfoResponse, AccountTxResponse } from "xrpl"
+import { Client, AccountInfoResponse, AccountTxResponse, AccountNFTsResponse, AccountCurrenciesResponse, GatewayBalancesResponse } from "xrpl"
 import { RIPPLE_TEST_URL } from "../constans/constans"
 
 /**
@@ -11,6 +11,7 @@ import { RIPPLE_TEST_URL } from "../constans/constans"
 const xrplGenericRequest = async (command: string, params: object): Promise<any> => {
     const client = new Client(RIPPLE_TEST_URL)
     await client.connect()
+
     const response = await client.request({
         command,
         ...params,
@@ -47,5 +48,35 @@ export const getAccountTransactions = async (address: string, limit = 10): Promi
         binary: false,
         limit,
         forward: false,
+    })
+}
+
+/**
+ * Function to get Nfts limiting the number of results
+ * 
+ * @param address 
+ * @param limit 
+ * @returns NFTs
+ */
+export const getAccountNfts = async (address: string, limit = 10): Promise<AccountNFTsResponse> => {
+    return xrplGenericRequest('account_nfts', {
+        account: address,
+        ledger_index: "validated",
+        limit,
+    })
+}
+
+/**
+ * Function to get IssuedTokens limiting the number of results
+ * 
+ * @param address 
+ * @param limit 
+ * @returns NFTs
+ */
+export const getAccountIssuedTokens = async (address: string, limit = 10): Promise<GatewayBalancesResponse> => {
+    return xrplGenericRequest('gateway_balances', {
+        account: address,
+        ledger_index: "validated",
+        limit,
     })
 }
