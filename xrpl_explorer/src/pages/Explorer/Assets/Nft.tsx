@@ -5,7 +5,7 @@ import OrderedList from "../../../components/CommonElements/OrderedList/OrderedL
 import { ListItem } from "../../../components/CommonElements/OrderedList/OrderedList.styles"
 import Spinner from "../../../components/CommonElements/Spinner";
 import ErrorMsg from "../../../components/Messages/ErrorMsg";
-import { NFT_LIST_HEADER } from "../../../constans/constans";
+import { NFT_LIST_HEADER } from "../../../constants/constants";
 import { getAccountNfts } from "../../../services/xrpl";
 
 interface NftProps {

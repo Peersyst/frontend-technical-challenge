@@ -10,7 +10,7 @@ export const XRP_CHANGE: number = 0.000001;
  */
 export const TRANSACTIONS_LIST_HEADER: string[] = ['ACCOUNT','TRANSACTION TYPE','STATUS','DATE/TIME (UTC)'];
 export const ISSUED_TOKENS_LIST_HEADER: string[] = ['CURRENCY CODE', 'ISSUER', 'AMOUNT'];
-export const NFT_LIST_HEADER: string[] = ['ACCOUNT','TRANSACTION TYPE','STATUS','DATE/TIME (UTC)'];
+export const NFT_LIST_HEADER: string[] = ['TOKEN ID','ISSUER','TAXON'];
 
 
 /**

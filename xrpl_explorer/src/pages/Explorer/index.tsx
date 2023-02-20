@@ -11,7 +11,7 @@ import Assets from "./Assets";
 import { useParams } from "react-router-dom";
 import ErrorMsg from "../../components/Messages/ErrorMsg";
 import Spinner from "../../components/CommonElements/Spinner";
-import { DEFAULT_ADDRESS } from "../../constans/constans";
+import { DEFAULT_ADDRESS } from "../../constants/constants";
 
 /**
  * Component wrapping the Explorer page contents

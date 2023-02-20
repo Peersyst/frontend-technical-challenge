@@ -1,5 +1,5 @@
 import { Client, AccountInfoResponse, AccountTxResponse, AccountNFTsResponse, AccountCurrenciesResponse, GatewayBalancesResponse } from "xrpl"
-import { RIPPLE_TEST_URL } from "../constans/constans"
+import { RIPPLE_TEST_URL } from "../constants/constants"
 
 /**
  * Generic request function to avoid repeating code

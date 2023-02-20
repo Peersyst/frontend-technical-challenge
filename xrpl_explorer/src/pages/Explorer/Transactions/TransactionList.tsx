@@ -5,7 +5,7 @@ import OrderedList from "../../../components/CommonElements/OrderedList/OrderedL
 import Row from "../../../components/CommonElements/Row/Row";
 import Spinner from "../../../components/CommonElements/Spinner";
 import ErrorMsg from "../../../components/Messages/ErrorMsg";
-import { TRANSACTIONS_LIST_HEADER } from "../../../constans/constans";
+import { TRANSACTIONS_LIST_HEADER } from "../../../constants/constants";
 import { getAccountTransactions } from "../../../services/xrpl";
 import TransactionData from "./Transaction";
 

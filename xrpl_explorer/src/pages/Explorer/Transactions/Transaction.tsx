@@ -3,7 +3,7 @@ import Badge from "../../../components/CommonElements/Badge/Badge";
 import Col from "../../../components/CommonElements/Col/Col";
 import { ListItem } from "../../../components/CommonElements/OrderedList/OrderedList.styles";
 import Row from "../../../components/CommonElements/Row/Row";
-import { DATE_FORMAT, PAYMENT_BADGE_BACKGROUND_COLOR, PAYMENT_BADGE_BORDER_COLOR, TRANSACTION_TYPE_DATA_BG_COLOR } from "../../../constans/constans";
+import { DATE_FORMAT, PAYMENT_BADGE_BACKGROUND_COLOR, PAYMENT_BADGE_BORDER_COLOR, TRANSACTION_TYPE_DATA_BG_COLOR } from "../../../constants/constants";
 import { TransactionOrResponseOnlyTx } from "./TransactionList";
 import PaymentData from "./TransactionTypesData/PaymentData";
 

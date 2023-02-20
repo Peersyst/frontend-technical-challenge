@@ -2,7 +2,7 @@ import { Fragment, FunctionComponent } from "react";
 import Row from "../../components/CommonElements/Row/Row";
 import { BottomRowTitle, InfoList, InfoListItem, AccountLabel } from "./Explorer.styles";
 import { AccountRoot } from "xrpl/dist/npm/models/ledger";
-import { XRP_CHANGE } from "../../constans/constans";
+import { XRP_CHANGE } from "../../constants/constants";
 
 /**
  * Component to display account info for Explorer page

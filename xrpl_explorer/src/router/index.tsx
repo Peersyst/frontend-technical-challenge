@@ -2,7 +2,7 @@ import { FunctionComponent, useEffect } from 'react'
 import {Routes, Route } from 'react-router'
 import { useNavigate } from 'react-router-dom'
 import AppLayout from '../components/Layout'
-import { DEFAULT_ADDRESS } from '../constans/constans'
+import { DEFAULT_ADDRESS } from '../constants/constants'
 import Explorer from '../pages/Explorer'
 
 /**

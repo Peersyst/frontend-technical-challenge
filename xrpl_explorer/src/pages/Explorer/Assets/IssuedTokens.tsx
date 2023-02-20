@@ -4,7 +4,7 @@ import OrderedList from "../../../components/CommonElements/OrderedList/OrderedL
 import Row from "../../../components/CommonElements/Row/Row";
 import Spinner from "../../../components/CommonElements/Spinner";
 import ErrorMsg from "../../../components/Messages/ErrorMsg";
-import { ISSUED_TOKENS_LIST_HEADER } from "../../../constans/constans";
+import { ISSUED_TOKENS_LIST_HEADER } from "../../../constants/constants";
 import { getAccountIssuedTokens } from "../../../services/xrpl";
 
 interface IssuedTokensProps {
