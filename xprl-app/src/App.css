@@ -1,0 +1,29 @@
+/* .footer{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-top: 1px solid #232325;
+  margin: 0 10%;
+  height: 200px;
+}
+.footer-links{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.footer-branding{
+  margin-top: 40px;
+}
+.footer .logo{
+  margin-bottom: 11px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer .copyright{
+  margin-top: 20px;
+  color: #a2a2a4;
+  font-size: 12px;
+  font-weight: 500;
+} */
