@@ -1,0 +1,1 @@
+export const DEFAULT_ACCOUNT = "rPT1Sjq2YGrBMTttX4GZHjKu9dyfzbpAYe";
