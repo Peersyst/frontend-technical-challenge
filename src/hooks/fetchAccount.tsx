@@ -1,3 +1,4 @@
+/* eslint-disable import/extensions */
 import { useEffect, useState } from "react";
 import { readAccountInfo } from "../services/api/xrpl";
 import { AccountRoot } from "xrpl/dist/npm/models/ledger";
@@ -19,6 +20,6 @@ function useFetchAccountInfo(accountId: string): [AccountRoot | undefined, boole
   }, [accountId]);
 
 	return [accountInfo, isFetching];
-};
+}
 
 export default useFetchAccountInfo;

@@ -1,3 +1,4 @@
+/* eslint-disable import/extensions */
 import { createBrowserRouter } from "react-router-dom";
 import Account from "../pages/Account";
 import TransactionsTab from "../pages/Account/Transactions";

@@ -1,3 +1,4 @@
+/* eslint-disable import/extensions */
 import { useEffect, useState } from "react";
 import { readAccountTransactions } from "../services/api/xrpl";
 
@@ -18,6 +19,6 @@ function useFetchTransactions(accountId: string): [any[], boolean]{
 	}, []);
 
 	return [transactions,isFetching];
-};
+}
 
 export default useFetchTransactions;

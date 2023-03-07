@@ -6,19 +6,19 @@ export type TabsType = {
 }[];
 
 export interface ITransaction {
-	meta: TransactionMetadata,
-	tx: Transaction,
-	validate?: boolean
+  meta: TransactionMetadata,
+  tx: Transaction,
+  validate?: boolean
 }
 
-export interface TypeCategory {
-	category: string,
+export interface ITypeCategory {
+  category: string,
 }
 
 export interface IProps {
-	accountId: string | undefined,
+  accountId: string | undefined,
 }
 
 export interface Props {
-	right?: boolean,
-};
+  right?: boolean,
+}
