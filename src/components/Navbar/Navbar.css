@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 1rem;
+
+    padding: 0 2.5rem;
+}
+
+.navbar > div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.navbar > div:first-child {
+    justify-content: flex-start;
+}
+.navbar > div:nth-child(2) {
+    justify-content: center;
+}
+.navbar > div:last-child {
+    justify-content: flex-end;
+}
+
+.navbar-logo {
+    display: flex;
+    color: #ffffff;
+}
+.navbar-logo svg {
+    width: 6.5rem;
+    padding: 1.5rem 0;
+}
+
+.navbar-searchbar {
+    width: 14rem;
+    max-width: 20rem;
+    transition: width 400ms;
+}
+
+.navbar-searchbar:active,
+.navbar-searchbar:focus-within {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0 1rem;
+    }
+}
