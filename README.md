@@ -32,8 +32,7 @@ On the other hand, you will have to implement the [assets tab](https://livenet.x
 You can see an example of _Issued Tokens_ [here](https://livenet.xrpl.org/accounts/r3RaNVLvWjqqtFAawC6jbRhgKyFH7HvRS8/assets/issued) and an example of _Non-Fungible Tokens_ [here](https://livenet.xrpl.org/accounts/rKv6sjM28hjEnvbNpsdVmAVFrM8ZrSMz6S/assets/nft).
 Keep in mind that there might be more scenarios where we want to use tabs. Thus, it is quite important to make them reusable.
 
-To make it more interesting, we will also ask you to add a search bar, so we can navigate to a different account page.
-You can use a component similar to the one found on the XRPL explorer.
+To make it more interesting, we will ask you to include a search bar that allows the user to navigate to other account pages. We already did some work building the bases of the search bar, so you can focus on adding the search functionality.
 
 Finally, you will have to add a caching system that saves the state of the last account page visited.
 You can use the local storage of the browser for that.
