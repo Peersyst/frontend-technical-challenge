@@ -1,0 +1,27 @@
+.searchbar {
+    display: flex;
+    align-items: center;
+    column-gap: 0.35rem;
+
+    padding: 0.5rem 1rem;
+
+    border-radius: 6.25rem;
+    background-color: #232325;
+    color: #ffffff;
+    cursor: text;
+}
+
+.searchbar svg {
+    flex-shrink: 0;
+    width: 0.75rem;
+    color: #a2a2a4;
+}
+
+.searchbar-input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: inherit;
+    text-overflow: ellipsis;
+}
