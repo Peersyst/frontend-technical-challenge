@@ -2,7 +2,7 @@ import { Client } from "xrpl";
 import {
     BaseRequest,
     BaseResponse,
-} from "../../node_modules/xrpl/dist/npm/models/methods/baseMethod";
+} from "xrpl/dist/npm/models/methods/baseMethod";
 
 const XRPL_WS = "wss://xrplcluster.com";
 
